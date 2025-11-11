@@ -7,11 +7,11 @@ int main() {
     int i, contador = 0;
 
     printf("Digite uma string: ");
-    fgets(texto, TAM, stdin);  // lê a string, incluindo espaços
+    fgets(texto, TAM, stdin);  
 
-    // conta os caracteres até encontrar o '\0'
+   
     for (i = 0; texto[i] != '\0'; i++) {
-        if (texto[i] != '\n')  // ignora o Enter no final
+        if (texto[i] != '\n') 
             contador++;
     }
 
