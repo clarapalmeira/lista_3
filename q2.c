@@ -8,7 +8,7 @@ int main() {
     int i, encontrado = 0;
 
     printf("Digite uma string: ");
-    fgets(texto, TAM, stdin);  // lê a string com espaços
+    fgets(texto, TAM, stdin); 
 
     printf("Digite um caractere: ");
     scanf("%c", &c);
@@ -16,7 +16,7 @@ int main() {
     for (i = 0; texto[i] != '\0'; i++) {
         if (texto[i] == c) {
             encontrado = 1;
-            break;  // já encontrou, não precisa continuar
+            break;  
         }
     }
 
